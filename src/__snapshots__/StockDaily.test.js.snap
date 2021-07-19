@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders as expected 1`] = `
+<div
+  className="stock-daily"
+>
+  Daily:
+  <div>
+    <div
+      className="stock-daily--section"
+    >
+      <div>
+        Open: $
+        23.4200
+      </div>
+      <div>
+        Close: $
+        22.9300
+      </div>
+    </div>
+    <div
+      className="stock-daily--section"
+    >
+      <div>
+        High: $
+        23.4200
+      </div>
+      <div>
+        Low: $
+        22.9200
+      </div>
+    </div>
+    <div>
+      Volume: 
+      201179
+    </div>
+  </div>
+</div>
+`;

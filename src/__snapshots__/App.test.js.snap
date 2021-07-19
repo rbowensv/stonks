@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders as expected 1`] = `
+<div
+  className="App"
+>
+  <header
+    className="App-header"
+  >
+    Stock Comparison
+    <div
+      className="App-header--description"
+    >
+      Enter up to 3 stocks to compare the current stock prices
+    </div>
+    <div
+      className="stock-search"
+    >
+      <div>
+        <label
+          className="stock-search--label"
+          htmlFor="stock-search"
+        >
+          Search stocks
+        </label>
+        <input
+          className="stock-search--input"
+          id="stock-search"
+          onChange={[Function]}
+          placeholder="Search..."
+          type="text"
+          value=""
+        />
+        <div
+          className="stock-search--suggestions"
+        />
+      </div>
+    </div>
+  </header>
+  <div
+    className="stock-compare"
+  />
+</div>
+`;

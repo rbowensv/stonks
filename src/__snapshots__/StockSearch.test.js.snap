@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders as expected 1`] = `
+<div
+  className="stock-search"
+>
+  <div>
+    <label
+      className="stock-search--label"
+      htmlFor="stock-search"
+    >
+      Search stocks
+    </label>
+    <input
+      className="stock-search--input"
+      id="stock-search"
+      onChange={[Function]}
+      placeholder="Search..."
+      type="text"
+      value=""
+    />
+    <div
+      className="stock-search--suggestions"
+    >
+      <button
+        className="stock-search--suggestion E"
+        name="Eni Spa"
+        onClick={[Function]}
+        value="E"
+      >
+        E: Eni Spa
+      </button>
+      <button
+        className="stock-search--suggestion E.TRT"
+        name="Enterprise Group"
+        onClick={[Function]}
+        value="E.TRT"
+      >
+        E.TRT: Enterprise Group
+      </button>
+    </div>
+  </div>
+</div>
+`;

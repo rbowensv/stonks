@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders as expected 1`] = `
+<div
+  className="stock-earnings"
+>
+  Earnings:
+  <div
+    className="stock-earnings--row"
+  >
+    <div
+      className="stock-earnings--green"
+    >
+      <img
+        alt="doge in rocket, text to the moon flashing rainbow"
+        className="stock-earnings--meme"
+        src="tothemoon.gif"
+      />
+    </div>
+    <div
+      className="stock-earnings--section"
+    >
+      <div>
+        Reported Earnings: 
+        0.5762
+      </div>
+      <div>
+        + 
+        105.12637949448208
+        %
+      </div>
+    </div>
+  </div>
+</div>
+`;
