@@ -1,13 +1,22 @@
+#What is this?
 This was for a coding challenge, make a stock viewer with some criteria(below). It was a fun practice in actually ground up and keeping myself on task and not veering off to make something perfect. This is very MVP. 
 
-Requirements
-Musts
+##Requirements
+
+###Musts
+
 Built in react
+
 Some sort of unit testing
-Nice to haves
+
+###Nice to haves
+
 Typescript
+
 Integration tests
+
 Continuous integration.
+
 The user wants you to create a web application that will allow them to compare up to 3 stock tickers at once. They want to be able to search for companies based not just based on symbols but also names. For example the user could search for PLTR and Palantir.
 
 A data source you could use is https://www.alphavantage.co/documentation/ (Free API key available). Here are a few user stories that the customer wants:
