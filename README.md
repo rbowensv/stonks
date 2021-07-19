@@ -1,15 +1,15 @@
-#What is this?
+# What is this?
 This was for a coding challenge, make a stock viewer with some criteria(below). It was a fun practice in actually ground up and keeping myself on task and not veering off to make something perfect. This is very MVP. 
 
-##Requirements
+## Requirements
 
-###Musts
+### Musts
 
 Built in react
 
 Some sort of unit testing
 
-###Nice to haves
+### Nice to haves
 
 Typescript
 
