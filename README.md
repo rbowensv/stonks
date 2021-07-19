@@ -1,3 +1,27 @@
+This was for a coding challenge, make a stock viewer with some criteria(below). It was a fun practice in actually ground up and keeping myself on task and not veering off to make something perfect. This is very MVP. 
+
+Requirements
+Musts
+Built in react
+Some sort of unit testing
+Nice to haves
+Typescript
+Integration tests
+Continuous integration.
+The user wants you to create a web application that will allow them to compare up to 3 stock tickers at once. They want to be able to search for companies based not just based on symbols but also names. For example the user could search for PLTR and Palantir.
+
+A data source you could use is https://www.alphavantage.co/documentation/ (Free API key available). Here are a few user stories that the customer wants:
+
+As a user, I want to be able to search for a company by symbol or full name so that I can be able to search for ‘AAL’ and ‘airlines’.
+
+As a user, I want to be able to pin/bookmark up to 3 results to my view so that I can search for companies and add them to the view without losing track of companies I am interested in.
+
+As a user, I want to be able to see up to 3 pinned columns so that I can draw direct comparisons across the data sets.
+
+As a user, I want to be able to see the graphical representation of a company’s EPS earning or cash flow and be able to compare it across the 3 selected companies.
+
+Below is all the cruft from Create React App
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
