@@ -20,7 +20,6 @@ export const StockView = (props) => {
     const mapDaily = (dailyData) => {
         let result = [];
         _.forEach(dailyData, (value, key) => {
-            console.log(Date.parse(key), parseFloat(value['4. close']))
             result.push([Date.parse(key), parseFloat(value['4. close'])])
         });
         setGraphData(result);
